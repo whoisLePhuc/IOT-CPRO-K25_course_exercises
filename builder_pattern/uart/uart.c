@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "uart-builder.h"
 
-// Function to set the baud rate
+// Function to set baud rate
 static UART_Builder* setBaudRate(UART_Builder* builder, uint32_t baudRate) {
     if (baudRate < 1200 || baudRate > 115200) {
         printf("Error: Invalid baud rate. Must be between 1200 and 115200.\n");
@@ -12,7 +12,7 @@ static UART_Builder* setBaudRate(UART_Builder* builder, uint32_t baudRate) {
     return builder;
 }
 
-// Function to set the parity
+// Function to set parity
 static UART_Builder* setParity(UART_Builder* builder, uint8_t parity) {
     if (parity > 2) {
         printf("Error: Invalid parity. Must be 0 (None), 1 (Odd), or 2 (Even).\n");
@@ -48,7 +48,7 @@ static UART_Config_t build(UART_Builder* builder) {
 }
 
 // Function to initialize the Builder
-UART_Builder UART_Builder_Init() {
+UART_Builder UartBuilderInit() {
     UART_Builder builder;
     builder.config.baudRate = 9600;  
     builder.config.parity = 0;      
