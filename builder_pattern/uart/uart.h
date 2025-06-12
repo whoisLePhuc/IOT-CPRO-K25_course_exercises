@@ -22,7 +22,7 @@ typedef struct UART_Builder {
 } UART_Builder;
 
 // Function to initialize builder
-UART_Builder UART_Builder_Init();
+UART_Builder UartBuilderInit();
 
 #endif // UART_BUILDER_H
     
