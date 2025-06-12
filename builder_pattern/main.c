@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "uart/uart-builder.h"
+#include "uart/uart.h"
 
 int main() {
     // Initialize Builder
