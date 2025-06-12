@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "uart-builder.h"
+#include "uart.h"
 
 // Function to set baud rate
 static UART_Builder* setBaudRate(UART_Builder* builder, uint32_t baudRate) {
