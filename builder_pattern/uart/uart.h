@@ -3,7 +3,6 @@
 
 #include <stdint.h>
 
-
 typedef struct {
     uint32_t baudRate;  
     uint8_t parity;  
