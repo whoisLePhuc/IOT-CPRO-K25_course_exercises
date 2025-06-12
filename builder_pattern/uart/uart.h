@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-// UART Configuration Structure
+
 typedef struct {
     uint32_t baudRate;  
     uint8_t parity;  
@@ -11,7 +11,7 @@ typedef struct {
     uint8_t dataBits;  
 } UART_Config_t;
 
-// UART Builder Structure
+// Builder Structure
 typedef struct UART_Builder {
     UART_Config_t config;
     struct UART_Builder* (*setBaudRate)(struct UART_Builder*, uint32_t);
