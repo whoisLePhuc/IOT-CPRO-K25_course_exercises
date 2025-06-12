@@ -3,7 +3,7 @@
 
 int main() {
     // Initialize Builder
-    UART_Builder builder = UART_Builder_Init();
+    UART_Builder builder = UartBuilderInit();
 
     // Configure UART 
     UART_Config_t uartConfig = builder
