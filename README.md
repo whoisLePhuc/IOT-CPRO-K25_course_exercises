@@ -1,8 +1,14 @@
 # Exercises
-Đã hoàn thành
--  builder_pattern, Facade_pattern, Factory_pattern, singleton_pattern
-Đang hoàn thiện
--   Decorator_pattern
-Chưa hoàn thành
--   Observer
--   State machine
+
+## ✅ Đã hoàn thành
+- `builder_pattern`
+- `facade_pattern`
+- `factory_pattern`
+- `singleton_pattern`
+
+## 🛠️ Đang hoàn thiện
+- `decorator_pattern`
+
+## ❌ Chưa hoàn thành
+- `observer`
+- `state_machine`
