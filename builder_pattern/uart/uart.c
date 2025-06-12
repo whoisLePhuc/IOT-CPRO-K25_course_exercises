@@ -5,7 +5,7 @@
 // Function to set baud rate
 static UART_Builder* setBaudRate(UART_Builder* builder, uint32_t baudRate) {
     if (baudRate < 1200 || baudRate > 115200) {
-        printf("Error: Invalid baud rate. Must be between 1200 and 115200.\n");
+        printf("Error: Invalid baud rate.\n");
         return builder;
     }
     builder->config.baudRate = baudRate;
@@ -15,7 +15,7 @@ static UART_Builder* setBaudRate(UART_Builder* builder, uint32_t baudRate) {
 // Function to set parity
 static UART_Builder* setParity(UART_Builder* builder, uint8_t parity) {
     if (parity > 2) {
-        printf("Error: Invalid parity. Must be 0 (None), 1 (Odd), or 2 (Even).\n");
+        printf("Error: Invalid parity.\n");
         return builder;
     }
     builder->config.parity = parity;
@@ -25,7 +25,7 @@ static UART_Builder* setParity(UART_Builder* builder, uint8_t parity) {
 // Function to set the stop bits
 static UART_Builder* setStopBits(UART_Builder* builder, uint8_t stopBits) {
     if (stopBits != 1 && stopBits != 2) {
-        printf("Error: Invalid stop bits. Must be 1 or 2.\n");
+        printf("Error: Invalid stop bits.\n");
         return builder;
     }
     builder->config.stopBits = stopBits;
@@ -35,7 +35,7 @@ static UART_Builder* setStopBits(UART_Builder* builder, uint8_t stopBits) {
 // Function to set the data bits
 static UART_Builder* setDataBits(UART_Builder* builder, uint8_t dataBits) {
     if (dataBits != 8 && dataBits != 9) {
-        printf("Error: Invalid data bits. Must be 8 or 9.\n");
+        printf("Error: Invalid bits.\n");
         return builder;
     }
     builder->config.dataBits = dataBits;
