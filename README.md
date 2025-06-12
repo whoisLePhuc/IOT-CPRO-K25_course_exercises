@@ -1,4 +1,8 @@
 # Exercises
-- Buổi 1: clean code & design pattern (creational)
-- Buổi 2: Structural
-- Buổi 3: Behavior
+Đã hoàn thành
+-  builder_pattern, Facade_pattern, Factory_pattern, singleton_pattern
+Đang hoàn thiện
+-   Decorator_pattern
+Chưa hoàn thành
+-   Observer
+-   State machine
