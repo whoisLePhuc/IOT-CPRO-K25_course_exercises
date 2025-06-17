@@ -5,10 +5,12 @@
 - `facade_pattern`
 - `factory_pattern`
 - `singleton_pattern`
+- `decorator_pattern`
+- `observer_pattern`
 
 ## 🛠️ Đang hoàn thiện
-- `decorator_pattern`
+- `state_machine`
 
 ## ❌ Chưa hoàn thành
-- `observer`
-- `state_machine`
+- `variable and value`
+
