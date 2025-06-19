@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "musicplayer.h": "c",
+        "stopstate.h": "c",
+        "pausestate.h": "c",
+        "playerstate.h": "c"
+    }
+}
