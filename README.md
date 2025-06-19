@@ -7,10 +7,10 @@
 - `singleton_pattern`
 - `decorator_pattern`
 - `observer_pattern`
-
-## 🛠️ Đang hoàn thiện
 - `state_machine`
 
-## ❌ Chưa hoàn thành
+## 🛠️ Đang hoàn thiện
 - `variable and value`
+## ❌ Chưa hoàn thành
+
 
