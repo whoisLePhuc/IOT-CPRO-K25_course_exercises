@@ -8,9 +8,10 @@
 - `decorator_pattern`
 - `observer_pattern`
 - `state_machine`
-
-## 🛠️ Đang hoàn thiện
 - `variable and value`
+- `standard IO`
+## 🛠️ Đang hoàn thiện
+
 ## ❌ Chưa hoàn thành
 
 
