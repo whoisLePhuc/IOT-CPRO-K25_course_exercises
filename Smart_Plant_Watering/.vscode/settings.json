@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "sensors.h": "c",
+        "moisture.h": "c",
+        "sensor_factory.h": "c",
+        "sensor_subscriber.h": "c",
+        "sensor_publisher.h": "c",
+        "malloc.h": "c",
+        "stdio.h": "c"
+    }
+}
