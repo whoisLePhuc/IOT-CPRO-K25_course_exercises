@@ -10,6 +10,7 @@
 - `state_machine`
 - `variable and value`
 - `standard IO`
+- `smart_plant_watering`
 ## 🛠️ Đang hoàn thiện
 
 ## ❌ Chưa hoàn thành
