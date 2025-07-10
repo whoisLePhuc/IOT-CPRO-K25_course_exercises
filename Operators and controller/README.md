@@ -2,7 +2,6 @@
 This project simulates the control of an addressable RGB LED strip (WS2812B / NeoPixel) using the C programming language. Each LED requires a 24-bit color value (8 bits each for Green, Red, and Blue), and the driver is responsible for managing a buffer containing color data for the entire strip.
 
 The driver provides a high-level API to:
-
 - Initialize and free memory for the LED strip,
 - Set individual pixel colors,
 - Fill the entire strip with a single color,
