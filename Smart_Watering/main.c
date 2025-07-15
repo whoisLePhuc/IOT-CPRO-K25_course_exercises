@@ -40,7 +40,6 @@ void setPumpState();                        // Control pump activation/deactivat
 int checkButton(System *system);            // Handle user button input
 unsigned long millis();                     // Get current time in milliseconds
 
-
 int main(){
     // Initialize all sensors
     Init_All_Sensors();
@@ -76,7 +75,6 @@ int main(){
             logMessage(LOG_INFO, "User requested exit. Shutting down main loop.");
             break;
         }
-        
         // Execute system logic based on current mode
         logMessage(LOG_DEBUG, "Main loop: currentMode=%d", system->currentMode);
         if(system->currentMode == AUTO_MODE){
@@ -90,7 +88,6 @@ int main(){
             setPumpState();
             setLedState(system);
         }
-
         sleep(1); // Prevent CPU overload and reduce terminal flooding
     }
     
