@@ -1,6 +1,6 @@
 # Exercises
 
-## ✅ Đã hoàn thành
+## ✅ Finish
 - `builder_pattern`
 - `facade_pattern`
 - `factory_pattern`
@@ -11,8 +11,8 @@
 - `variable and value`
 - `standard IO`
 - `smart_plant_watering`
-## 🛠️ Đang hoàn thiện
+## 🛠️ Processing
 
-## ❌ Chưa hoàn thành
+## ❌ Unfinish
 
 
